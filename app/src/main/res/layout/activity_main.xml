@@ -4,17 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.android.goodtoknow.MainActivity">
 
     <TextView
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="15dp"
-        android:text="Welcome Niños!"
-        android:textSize="45dp"
-        android:textStyle=""
+        android:layout_width="1000dp"
+        android:layout_height="75dp"
         android:background="#795548"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:text="GoodToKnow! "
+        android:textSize="45dp" />
+
+    <TextView
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:text="Numbers"
+        android:textSize="35dp" />
 
 
 </LinearLayout>
