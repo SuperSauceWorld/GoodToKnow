@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:background="#00BCD4"
         android:text="Numbers"
-        android:textSize="35dp" />
+        android:textSize="34dp" />
 
 
 </LinearLayout>
