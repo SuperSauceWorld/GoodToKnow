@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="1000dp"
         android:layout_height="wrap_content"
-        android:background="#795548"
+        android:background="#dc0e0e"
         android:text="GoodToKnow! "
         android:textSize="55dp" />
 
@@ -23,7 +23,7 @@
         android:textSize="38dp"
         android:layout_width="1000dp"
         android:layout_height="wrap_content"
-        android:background="#0ae757"
+        android:background="#0a41e7"
         />
 
     <TextView
@@ -31,25 +31,25 @@
         android:layout_height="wrap_content"
         android:text="Alphabet"
         android:textSize="38dp"
-        android:background="#0a20e7" />
+        android:background="#fdd835" />
     <TextView
         android:layout_width="1000dp"
         android:layout_height="wrap_content"
-        android:background="#00BCD4"
+        android:background="#0a41e7"
         android:text="Numbers"
         android:textSize="38dp" />
 
     <TextView
         android:layout_width="1000dp"
         android:layout_height="wrap_content"
-        android:text="Colours"
+        android:text="Colors"
         android:textSize="38dp"
-        android:background="#e70a0e" />
+        android:background="#fdd835" />
 
     <TextView
         android:text="Pictures"
         android:textSize="38dp"
-        android:background="#FDD835"
+        android:background="#0a41e7"
         android:layout_width="1000dp"
         android:layout_height="wrap_content" />
 
