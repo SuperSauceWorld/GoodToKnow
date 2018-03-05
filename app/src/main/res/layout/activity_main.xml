@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="1000dp"
         android:layout_height="wrap_content"
-        android:background="#dc0e0e"
+        android:background="#dc1616"
         android:text="GoodToKnow! "
         android:textSize="55dp" />
 
