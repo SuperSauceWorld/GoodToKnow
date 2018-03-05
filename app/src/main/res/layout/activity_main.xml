@@ -7,19 +7,75 @@
     android:orientation="vertical"
     tools:context="com.example.android.goodtoknow.MainActivity">
 
-    <TextView
-        android:layout_width="1000dp"
-        android:layout_height="75dp"
-        android:background="#795548"
-        android:text="GoodToKnow! "
-        android:textSize="45dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="1000dp"
-        android:layout_height="wrap_content"
-        android:background="#00BCD4"
-        android:text="Numbers"
-        android:textSize="34dp" />
+        <TextView
+            android:id="@+id/GTD"
+            android:layout_width="1000dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#795548"
+            android:text="GoodToKnow! "
+            android:textSize="45dp" />
 
+        <TextView
+            android:id="@+id/Numbers"
+            android:layout_width="1000dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/GTD"
+            android:background="#00BCD4"
+            android:text="Numbers"
+            android:textSize="34dp" />
+
+        <TextView
+            android:id="@+id/Words"
+            android:layout_width="1000dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Numbers"
+            android:background="#00BCD4"
+            android:text="Words"
+            android:textSize="34dp" />
+
+        <TextView
+            android:id="@+id/Alphabet"
+            android:layout_width="1000dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Words"
+            android:background="#00BCD4"
+            android:text="Alphabet"
+            android:textSize="34dp" />
+
+        <TextView
+            android:id="@+id/Colors"
+            android:layout_width="1000dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Alphabet"
+            android:background="#00BCD4"
+            android:text="Colors"
+            android:textSize="34dp" />
+
+        <TextView
+            android:layout_width="1000dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Colors"
+            android:background="#00BCD4"
+            android:text="Pictures"
+            android:textSize="34dp" />
+
+    </RelativeLayout>
 
 </LinearLayout>
