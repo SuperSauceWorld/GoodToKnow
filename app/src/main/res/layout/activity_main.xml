@@ -46,6 +46,13 @@
         android:textSize="38dp"
         android:background="#e70a0e" />
 
+    <TextView
+        android:text="Pictures"
+        android:textSize="38dp"
+        android:background="#FDD835"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content" />
+
 
 
 
