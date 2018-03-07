@@ -16,12 +16,9 @@
         android:text=" GoodToKnow! "
         android:textSize="55dp" />
 
-
-
-
-
     <TextView
-        android:text="             Words"
+        android:id="@+id/alphabet_text_view"
+        android:text="           Alphabet"
         android:textSize="38dp"
         android:layout_width="1000dp"
         android:layout_height="wrap_content"
@@ -31,14 +28,14 @@
     <TextView
         android:layout_width="1000dp"
         android:layout_height="wrap_content"
-        android:text="           Alphabet"
+        android:text="           Numbers"
         android:textSize="38dp"
         android:background="#fdd835" />
     <TextView
         android:layout_width="1000dp"
         android:layout_height="wrap_content"
         android:background="#0a41e7"
-        android:text="           Numbers"
+        android:text="             Words"
         android:textSize="38dp" />
 
     <TextView
