@@ -16,10 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AlphabetActivity"
-            android:label="Alphabet">
-
-        </activity>
+        <activity
+            android:name=".AlphabetActivity"
+            android:label="Alphabet" />
+        <activity
+            android:name=".NumbersActivity"
+            android:label="Numbers"></activity>
+        <activity android:name=".WordsActivity"></activity>
     </application>
 
 </manifest>
