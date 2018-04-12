@@ -10,6 +10,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A"/>
+        android:text="Aa  Bb  Cc  Dd  Ee  Ff  Gg  Hh  Ii  Jj  Kk  Ll  Mm  Nn  Oo  Pp  Qq
+Rr  Ss  Tt  Uu  Vv  Ww  Xx Yy  Zz" />
+
 
 </LinearLayout>
