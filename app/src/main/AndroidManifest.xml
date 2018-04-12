@@ -22,10 +22,12 @@
         <activity
             android:name=".NumbersActivity"
             android:label="Numbers" />
-        <activity android:name=".WordsActivity" />
-        <activity
-            android:name=".Colors"
-            android:label="Colors"></activity>
+        <activity android:name=".WordsActivity"
+            android:label="Words">
+        </activity>
+        <activity android:name=".Colors"
+            android:label="Colors">
+        </activity>
         <activity android:name=".Pictures"
             android:label="Pictures">
         </activity>
