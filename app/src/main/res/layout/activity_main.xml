@@ -13,43 +13,43 @@
         android:text=" GoodToKnow! "
         android:textSize="55dp" />
 
-    <TextView
+    <Button
         android:id="@+id/alphabet8"
-        android:text="            Alphabet"
+        android:text="Alphabet"
         android:textSize="38dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#0e43e4"
-        android:clickable="true"
+        android:onClick="openAlphabet"
         />
 
-    <TextView
+    <Button
         android:id="@+id/numbers_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="            Numbers"
+        android:text="Numbers"
         android:textSize="38dp"
         android:background="#fdd835" />
 
-    <TextView
+    <Button
         android:id="@+id/words_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#0a41e7"
-        android:text="              Words"
+        android:text="Words"
         android:textSize="38dp" />
 
-    <TextView
+    <Button
         android:id="@+id/colors_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="              Colors"
+        android:text="Colors"
         android:textSize="38dp"
         android:background="#fdd835" />
 
-    <TextView
+    <Button
         android:id="@+id/pictures_text_view"
-        android:text="             Pictures"
+        android:text="Pictures"
         android:textSize="38dp"
         android:background="#0a41e7"
         android:layout_width="match_parent"
